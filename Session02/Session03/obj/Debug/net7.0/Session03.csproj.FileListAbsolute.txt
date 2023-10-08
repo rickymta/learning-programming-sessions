@@ -1,0 +1,14 @@
+F:\Study\learning-programming-sessions\Session02\Session03\obj\Debug\net7.0\Session03.GeneratedMSBuildEditorConfig.editorconfig
+F:\Study\learning-programming-sessions\Session02\Session03\obj\Debug\net7.0\Session03.AssemblyInfoInputs.cache
+F:\Study\learning-programming-sessions\Session02\Session03\obj\Debug\net7.0\Session03.AssemblyInfo.cs
+F:\Study\learning-programming-sessions\Session02\Session03\obj\Debug\net7.0\Session03.csproj.CoreCompileInputs.cache
+F:\Study\learning-programming-sessions\Session02\Session03\bin\Debug\net7.0\Session03.exe
+F:\Study\learning-programming-sessions\Session02\Session03\bin\Debug\net7.0\Session03.deps.json
+F:\Study\learning-programming-sessions\Session02\Session03\bin\Debug\net7.0\Session03.runtimeconfig.json
+F:\Study\learning-programming-sessions\Session02\Session03\bin\Debug\net7.0\Session03.dll
+F:\Study\learning-programming-sessions\Session02\Session03\bin\Debug\net7.0\Session03.pdb
+F:\Study\learning-programming-sessions\Session02\Session03\obj\Debug\net7.0\Session03.dll
+F:\Study\learning-programming-sessions\Session02\Session03\obj\Debug\net7.0\refint\Session03.dll
+F:\Study\learning-programming-sessions\Session02\Session03\obj\Debug\net7.0\Session03.pdb
+F:\Study\learning-programming-sessions\Session02\Session03\obj\Debug\net7.0\Session03.genruntimeconfig.cache
+F:\Study\learning-programming-sessions\Session02\Session03\obj\Debug\net7.0\ref\Session03.dll
