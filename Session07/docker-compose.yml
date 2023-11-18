@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  mssql:
+    build:
+      context: ./
+      dockerfile: mssql/Dockerfile
+    container_name: mssqlserver
+    restart: always
+    hostname: mssql
+    environment:
+      SA_PASSWORD: ${SA_PASSWORD}
+      ACCEPT_EULA: Y
+
+    volumes:
+      - mssqlvolume:/var/opt/mssql/data
+      - ./bk:/var/opt/mssql/backup
+    ports:
+      - "1433:1433"
+
+volumes:
+  mssqlvolume:
