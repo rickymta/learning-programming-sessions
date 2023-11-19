@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form class="form">
+        <div class="form-group">
+          <h1>login form</h1>
+          <hr />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            class="form-control"
+            placeholder="Email..."
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            class="form-control"
+            placeholder="************"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" class="form-control">
+            <option value="1">Male</option>
+            <option value="0">Female</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <button id="btn-login">LOGIN</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- <script>
+      var email = document.getElementById("email");
+      var password = document.getElementById("password");
+      var gender = document.getElementById("gender");
+      var btnLogin = document.getElementById("btn-login");
+
+      gender.addEventListener("change", function (e) {
+        var genderData = gender.value;
+        console.log(genderData);
+      });
+
+      btnLogin.addEventListener("click", function (e) {
+        e.preventDefault();
+        var emailData = email.value;
+        var passwordData = password.value;
+        console.log({ emailData, passwordData });
+      });
+    </script> -->
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script>
+      // Lấy ra DOM tương ứng với selector được chọn
+      // Selector: bộ chọn
+      // DOM: Document object model (các thẻ, các thuộc tính, các sự kiện)
+      $("#btn-login").click(function (e) {
+        e.preventDefault();
+        var email = $("#email").val();
+        var password = $("#password").val();
+        var gender = $("#gender").val();
+        // console.log({ email, password, gender });
+        console.log(
+          `Email: ${email}\nPassword: ${password}\nGender: ${gender}`
+        );
+      });
+
+      $(document).ready(function () {
+        let email = "DatDT02@ominext.com";
+        $("#email").val(email);
+      });
+    </script>
+  </body>
+</html>
