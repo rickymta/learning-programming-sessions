@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* ACCOUNT PAGE */
+.container .account-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .account-wrapper .form-wrapper {
+    height: 600px;
+    background-color: rgb(84, 142, 97);
+    padding: 50px;
+    color: aliceblue;
+}
+
+.container .account-wrapper .form-wrapper .form .form-group {
+    margin-bottom: 20px;
+}
